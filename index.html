@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Calvary Worship Mobile Apps</title>
+  <meta name="description" content="Download Calvary Worship mobile app and recommended Christian apps from Google Play Store."/>
+  <style>
+    :root{--bg:#0b1220;--card:#0f1724;--accent:#f6c85f;--muted:#9aa4b2;--glass:rgba(255,255,255,0.03)}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background:linear-gradient(180deg,#07101a 0%, #09202b 100%);color:#fff;min-height:100vh}
+    .container{max-width:980px;margin:40px auto;padding:24px}
+    header{display:flex;gap:16px;align-items:center}
+    .logo{display:flex;flex-direction:column;gap:2px}
+    .logo h1{margin:0;font-size:28px;letter-spacing:0.5px}
+    .logo p{margin:0;color:var(--muted);font-size:13px}
+    .hero{margin-top:20px;background:var(--glass);padding:18px;border-radius:12px;box-shadow:0 6px 20px rgba(2,6,23,0.6)}
+    .hero .intro{display:flex;gap:18px;align-items:center}
+    .hero img{width:96px;height:96px;object-fit:cover;border-radius:12px;flex-shrink:0}
+    .hero .text h2{margin:0 0 6px 0}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-top:18px}
+
+    .card{background:linear-gradient(180deg,rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:14px;border-radius:12px;display:flex;flex-direction:column;gap:12px;align-items:flex-start}
+    .card .meta{display:flex;gap:12px;align-items:center;width:100%}
+    .card .meta img{width:64px;height:64px;border-radius:12px;object-fit:cover}
+    .card h3{margin:0;font-size:17px}
+    .card p{margin:0;color:var(--muted);font-size:13px}
+    .actions{display:flex;gap:8px;margin-top:8px;width:100%}
+    .btn{display:inline-flex;align-items:center;gap:8px;padding:10px 12px;border-radius:10px;text-decoration:none;font-weight:600}
+    .btn.primary{background:linear-gradient(90deg,#f6c85f,#f0b24b);color:#111}
+    .btn.ghost{background:transparent;border:1px solid rgba(255,255,255,0.06);color:#fff}
+    .note{font-size:13px;color:var(--muted);margin-top:12px}
+    footer{margin-top:26px;color:var(--muted);font-size:13px}
+
+    /* Responsive small tweaks */
+    @media (max-width:520px){.logo h1{font-size:20px}.hero img{width:72px;height:72px}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <h1>Calvary Worship  Mobile Apps</h1>
+        <p>Download app for mobile</p>
+      </div>
+    </header>
+
+    <section class="hero" role="region" aria-label="App download hero">
+      <div class="intro">
+        <img src="https://i.ibb.co/3f2V7wQ/cross-card.png" alt="Calvary Worship logo" />
+        <div class="text">
+          <h2>Mobile apps for worship & Bible</h2>
+          <p class="lead">Download the official Calvary Worship app (if you have one) or browse recommended apps from Google Play Store.</p>
+          <p class="note">Tip: replace the placeholder links and icons below with your app's Google Play URL and screenshots.</p>
+        </div>
+      </div>
+
+      <div class="grid" style="margin-top:18px">
+        <!-- Card 1: Calvary Worship (your app) -->
+        <article class="card">
+          <div class="meta">
+            <img src="https://i.ibb.co/3f2V7wQ/cross-card.png" alt="Calvary Worship app icon" />
+            <div style="flex:1">
+              <h3>Calvary Worship (Official)</h3>
+              <p>Official app for Calvary Worship — songs, lyrics, slides and live stream. (Add your Play Store link)</p>
+            </div>
+          </div>
+          <div class="actions">
+            <!-- Replace href with your actual Google Play app URL -->
+            <a class="btn primary" href="#" target="_blank" rel="noopener noreferrer">Open on Google Play</a>
+            <a class="btn ghost" href="#" target="_blank" rel="noopener noreferrer">View APK / Details</a>
+          </div>
+        </article>
+
+        <!-- Card 2: Example Bible app (placeholder link) -->
+        <article class="card">
+          <div class="meta">
+            <img src="Gujarati Christian Song e Book.png" alt="Gujarati Christian Song e Book app icon" />
+            <div style="flex:1">
+              <h3>Gujarati Christian Song e Book</h3>
+              <p>there is song aveleble in hindi gujarati</p>
+            </div>
+          </div>
+          <div class="actions">
+            <a class="btn primary" href="https://play.google.com/store/apps/details?id=com.calvaryworship.gujaratichristiansongebook&pcampaignid=web_share" target="_blank" rel="noopener noreferrer">Open on Google Play</a>
+            <a class="btn ghost" href="https://play.google.com/store" target="_blank" rel="noopener noreferrer">More info</a>
+          </div>
+        </article>
+
+        <!-- Card 3: YouTube / Music app -->
+        <article class="card">
+          <div class="meta">
+            <img src="https://i.ibb.co/dM2QwXj/music-card.png" alt="Music app icon" />
+            <div style="flex:1">
+              <h3>Gospel & Hymns</h3>
+              <p>Listen to worship playlists and offline hymnbooks. (Use a Play Store link to your preferred app)</p>
+            </div>
+          </div>
+          <div class="actions">
+            <a class="btn primary" href="https://play.google.com/store" target="_blank" rel="noopener noreferrer">Open on Google Play</a>
+            <a class="btn ghost" href="https://play.google.com/store" target="_blank" rel="noopener noreferrer">More apps</a>
+          </div>
+        </article>
+      </div>
+
+      <p class="note">If you want me to add your app directly, please paste your Google Play URL and app icon — I'll update the page with a direct download button.</p>
+    </section>
+
+    <footer>
+      <p>Want this page as a single file you can upload to GitHub Pages? Use the provided HTML file as-is. Replace icons and the "Open on Google Play" hrefs with your real Play Store links.</p>
+    </footer>
+  </div>
+</body>
+</html>
